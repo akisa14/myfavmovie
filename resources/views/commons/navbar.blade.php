@@ -14,10 +14,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                         <li>
-                            <a href="#">
-                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                                Add Movie
-                              </a>
+                            <a href="#"><img src="/images/dragonicon.png" alt="dragonicon">
+                            </a>
                         </li>
                         
                         <li class="dropdown">
